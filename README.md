@@ -23,3 +23,5 @@ Compila o Webpack e executar o arquivo gerado no */dist*
 ```
 npm start && node dist/main.js
 ```
+
+Teste de regex: [Regular Expressions 101](https://regex101.com/)
