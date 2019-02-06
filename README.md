@@ -1,6 +1,8 @@
+# Webpack-101
 
 ## Principais comandos
 
+Inicializa o *package.json*
 ```
 npm init -y
 ```
@@ -12,10 +14,12 @@ npm i
 ```
 
 
+Compila o Webpack
 ```
 npm start
 ```
 
+Compila o Webpack e executar o arquivo gerado no */dist*
 ```
 npm start && node dist/main.js
 ```
