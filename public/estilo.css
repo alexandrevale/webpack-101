@@ -1,1 +1,16 @@
-body{background-color:#ddd}.btn{background-color:#3498db;color:#ecf0f1;font-size:1.8em;text-decoration:none;border-radius:15px;padding:5px 10px}
+body {
+  background-color: #ddd;
+  background-image: url(9bad0d2961b9bc3599eae8bd8681fbb8.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh; }
+
+.btn {
+  background-color: #3498db;
+  color: #ecf0f1;
+  font-size: 1.8em;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 5px 10px; }
+

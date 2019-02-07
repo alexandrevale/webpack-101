@@ -1,3 +1,8 @@
 body {
 	background-color: #ddd;
+	background-image: url(../img/vol-iii.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
 }
