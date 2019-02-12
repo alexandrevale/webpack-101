@@ -2,11 +2,12 @@ const modoDev = process.env.NODE_ENV !== 'production'
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const path = require('path')
 
 // Objeto de configuração do script do Webpack
 module.exports = {
 	mode: modoDev ? 'development' : 'production',
-	entry: './src/principal.js',
+	entry: path.join(__dirname, 'src', 'principal'),
 	output: {
 		filename: 'principal.js',
 		path: __dirname + '/public'
